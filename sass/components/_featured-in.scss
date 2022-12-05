@@ -1,0 +1,12 @@
+.section-featured {
+  &--logos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 17rem;
+  }
+
+  &_logo {
+    width: 7%;
+  }
+}

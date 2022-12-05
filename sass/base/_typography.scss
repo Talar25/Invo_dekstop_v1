@@ -1,0 +1,30 @@
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: $font-size-small;
+  line-height: 3.2rem;
+}
+
+.heading-primary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: $font-size-large;
+  line-height: 5.6rem;
+  margin-bottom: 2.8rem;
+  width: 78%;
+}
+
+.heading-span {
+  background-color: $color-black;
+  color: $color-white;
+  display: inline-block;
+}
+
+.heading-secondary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: $font-size-big;
+  color: $color-white;
+  line-height: 3.2rem;
+  margin-bottom: 2.8rem;
+}

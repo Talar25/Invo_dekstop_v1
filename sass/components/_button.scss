@@ -1,0 +1,43 @@
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  &-big:link,
+  &-big:visited {
+    display: inline-block;
+    background-color: $color-primary;
+    color: $color-white;
+    border-radius: 1rem;
+    padding: 0.9rem 5.5rem;
+    text-decoration: none;
+    transition: all 0.2s;
+  }
+
+  &-big:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    background-color: $color-primary-dark;
+  }
+  &-big:active {
+    transform: translateY(0rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+  &-small:link,
+  &-small:visited {
+    background-color: $color-primary;
+    color: $color-white !important;
+    border-radius: 1rem;
+    width: 9.7rem;
+    transition: all 0.2s;
+  }
+
+  &-small:hover {
+    transform: translateY(-0.2rem);
+    box-shadow: 0 1rem 2rem rgba($color-black, 0.2);
+    background-color: $color-primary-dark;
+  }
+  &-small:active {
+    transform: translateY(0rem);
+    box-shadow: 0 0.5rem 1rem rgba($color-black, 0.2);
+  }
+}

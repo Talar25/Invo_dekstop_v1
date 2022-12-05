@@ -1,0 +1,37 @@
+.section-profile__card {
+  border-radius: 1rem;
+}
+
+.section-profile__text-box {
+  padding: 5rem 13rem;
+}
+
+.section-profile__paragraph {
+  color: $color-white;
+  font-size: $font-size-medium;
+  width: 44%;
+}
+
+.maczfit {
+  background-image: linear-gradient(
+      90deg,
+      #000000 1.82%,
+      rgba(0, 0, 0, 0.0001) 99.07%
+    ),
+    url(../../img/meal.png);
+  mix-blend-mode: normal;
+
+  background-size: cover;
+}
+
+.uberEats {
+  background: linear-gradient(177.68deg, #000000 61.48%, #000000 177.12%);
+  position: relative;
+}
+
+.section-profile-img {
+  position: absolute;
+  width: 23%;
+  right: 15%;
+  top: 15%;
+}

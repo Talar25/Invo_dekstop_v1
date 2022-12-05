@@ -1,0 +1,261 @@
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 3.2rem;
+}
+
+.heading-primary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 5.6rem;
+  line-height: 5.6rem;
+  margin-bottom: 2.8rem;
+  width: 78%;
+}
+
+.heading-span {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+}
+
+.heading-secondary {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-size: 3.5rem;
+  color: #fff;
+  line-height: 3.2rem;
+  margin-bottom: 2.8rem;
+}
+
+.u_margin-bottom--small {
+  margin-bottom: 3rem;
+}
+
+.u_margin-bottom--medium {
+  margin-bottom: 3.6rem;
+}
+
+.u_background_red {
+  background-color: #920303;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.btn-big:link,
+.btn-big:visited {
+  display: inline-block;
+  background-color: #920303;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.9rem 5.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+}
+.btn-big:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-color: #750202;
+}
+.btn-big:active {
+  transform: translateY(0rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+.btn-small:link,
+.btn-small:visited {
+  background-color: #920303;
+  color: #fff !important;
+  border-radius: 1rem;
+  width: 9.7rem;
+  transition: all 0.2s;
+}
+.btn-small:hover {
+  transform: translateY(-0.2rem);
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+  background-color: #750202;
+}
+.btn-small:active {
+  transform: translateY(0rem);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.carousel {
+  position: absolute;
+  bottom: 10%;
+  display: flex;
+  gap: 2.1rem;
+}
+
+.carousel-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #efefef;
+  border-radius: 50%;
+  border: none;
+}
+
+.dot--current {
+  height: 9px;
+  width: 9px;
+  border: 2px solid #000;
+}
+
+.section-featured--logos {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 17rem;
+}
+.section-featured_logo {
+  width: 7%;
+}
+
+.section-profile__card {
+  border-radius: 1rem;
+}
+
+.section-profile__text-box {
+  padding: 5rem 13rem;
+}
+
+.section-profile__paragraph {
+  color: #fff;
+  font-size: 2rem;
+  width: 44%;
+}
+
+.maczfit {
+  background-image: linear-gradient(
+      90deg,
+      #000000 1.82%,
+      rgba(0, 0, 0, 0.0001) 99.07%
+    ),
+    url(../../img/meal.png);
+  mix-blend-mode: normal;
+  background-size: cover;
+}
+
+.uberEats {
+  background: linear-gradient(177.68deg, #000000 61.48%, #000000 177.12%);
+  position: relative;
+}
+
+.section-profile-img {
+  position: absolute;
+  width: 23%;
+  right: 15%;
+  top: 15%;
+}
+
+.header {
+  height: 100vh;
+  overflow: hidden;
+  background-color: #fff;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  justify-content: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.section-main {
+  position: relative;
+}
+.section-main__text {
+  margin-top: 10rem;
+  margin-left: 14rem;
+}
+.section-main__img {
+  min-height: 50vh;
+  min-width: 50%;
+  background-color: red;
+  background-image: url("../../img/steak.png");
+  background-size: cover;
+}
+.section-main__paragraph {
+  width: 38%;
+  line-height: 2.5rem;
+  font-weight: 300;
+}
+
+.section-nav {
+  box-shadow: 0px 0.1rem 2.1rem rgba(0, 0, 0, 0.0520088);
+}
+.section-nav--container {
+  margin: 0 15rem;
+  padding: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+.section-nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 5rem;
+}
+.section-nav__link:link,
+.section-nav__link:visited {
+  text-decoration: none;
+  color: black;
+}
+.section-nav__link:hover,
+.section-nav__link:active {
+  color: #750202;
+}
+
+.logo {
+  width: 4.7rem;
+  height: 4.8rem;
+}
+
+.section-featured--container {
+  margin: auto 36rem;
+  padding: 1.7rem;
+}
+
+.section-profile-cards {
+  position: relative;
+}
+.section-profile-cards__container {
+  margin: 0 2.5rem;
+  gap: 0.8rem;
+} /*# sourceMappingURL=main.css.map */
